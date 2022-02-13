@@ -22,8 +22,8 @@ Type `lapis server` in the terminal. API should be available at the default 8080
         "category_id": 1
     }
 
-`PUT /products{productId}` - modifies the specified product. \
-`DELETE /products{productId}` - deletes the specified product.
+`PUT /products/{productId}` - modifies the specified product. \
+`DELETE /products/{productId}` - deletes the specified product.
 
 ### Categories
 
@@ -35,7 +35,7 @@ Type `lapis server` in the terminal. API should be available at the default 8080
         "name": "Dairy",
     }
 
-`PUT /categories{categoryId}` - modifies the specified category. \
-`DELETE /categories{categoryId}` - deletes the specified category.
+`PUT /categories/{categoryId}` - modifies the specified category. \
+`DELETE /categories/{categoryId}` - deletes the specified category.
 
 **Author: Przemysław Kocur**
